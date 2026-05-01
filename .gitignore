@@ -1,0 +1,42 @@
+# STM32CubeIDE Build Artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.su
+
+# STM32CubeIDE Project Files
+.cproject
+.project
+.settings/
+*.launch
+
+# CubeMX Generated (keep .ioc, ignore backups)
+*.ioc.bak
+
+# IDE Metadata
+.metadata/
+RemoteSystemsTempFiles/
+
+# Compiler/Linker Intermediates
+build/
+*.a
+*.so
+
+# ST-Link / OpenOCD debug
+*.svd
+
+# OS Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.orig
+*~
